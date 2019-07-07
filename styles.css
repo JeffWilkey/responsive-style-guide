@@ -1,0 +1,148 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+section {
+  border: solid 1px #333;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+section h2 {
+  margin-top: 0;
+  font-family: "Work Sans", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.column-flex-responsive {
+  flex-direction: column;
+}
+
+/* Color Swatches */
+
+.color-swatch {
+  flex: 1;
+  margin: 0 10px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.color-swatch p {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  color: white;
+}
+
+#shy-moment {
+  background-color: #a29bfe;
+}
+
+#faded-poster {
+  background-color: #81ecec;
+}
+
+#pink-glamour {
+  background-color: #ff7675;
+}
+
+#sour-lemon {
+  margin-top: 20px;
+  background-color: #ffeaa7;
+}
+
+#sour-lemon p {
+  color: #333;
+}
+
+/* Fonts */
+
+#fonts {
+  margin-right: 10px;
+}
+
+#fonts div {
+  margin-bottom: 10px;
+}
+
+#fonts div h3 {
+  font-size: 16px;
+}
+
+#fonts div p {
+  margin: 0 0 8px 0;
+}
+
+.semi-bold {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+#merriweather {
+  font-family: "Merriweather", serif;
+}
+
+/* Text Styles */
+
+#text-styles {
+  margin-left: 10px;
+}
+
+#text-styles h1 {
+  font-family: 'Work Sans', Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+#text-styles h2 {
+  font-family: "Work Sans", Helvetica, sans-serif;
+}
+
+#text-styles ul {
+  font-family: 'Work Sans', sans-serif;
+}
+
+@media only screen and (min-width: 720px) {
+  .color-swatch {
+    max-width: 292px;
+  }
+
+  #fonts {
+    flex: 1;
+  }
+
+  #text-styles {
+    flex: 1;
+  }
+
+  .column-flex-responsive {
+    flex-direction: row;
+  }
+}
